@@ -20,7 +20,7 @@ export default () => {
           }}>
           </script>
       </Head>
-      {/* Below Script causes char encoding in Next.js v12.1.0 */}
+      {/* Below Script causes char encoding in Next.js version at or below 12.1.0 */}
       {/* <Script id="vwoCode" strategy="beforeInteractive">
         {`window._vwo_code || (function() {
 var account_id=767128,
